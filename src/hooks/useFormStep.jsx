@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function useForm (steps) {
+export default function useFormStep (steps) {
   const [ currentStep, setCurrentStep ] = useState(0)
 
   function changeStep(i, e){
